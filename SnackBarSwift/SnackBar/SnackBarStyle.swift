@@ -8,18 +8,22 @@
 import UIKit
 
 public struct SnackBarStyle {
+    
 	public init() { }
+    
 	// Container
-	public var background: UIColor = .lightGray
-    var borderRadius: CGFloat = 9
-	var padding = 6
-	var inViewPadding = 16
+    public var background: UIColor = AppColorV4.Gray.gray900
+    public var borderRadius: CGFloat = 9
+	public var paddingSupperview = 6
+    public var paddingInnerview = 16
+    public var paddingStackview: CGFloat = 10
+    
 	// Label
-	public var textColor: UIColor = .black
-    public var font: UIFont = UIFont.systemFont(ofSize: UIFontMetrics.default.scaledValue(for: 14))
+    public var textColor: UIColor = AppColorV4.white
+    public var textFont: UIFont = AppFont.robotoRegular(ofSize: 14)
 	var maxNumberOfLines: Int = 2
+    
 	// Action
-	public var actionTextColorAlpha: CGFloat = 0.5
-	public var actionFont: UIFont = UIFont.systemFont(ofSize: UIFontMetrics.default.scaledValue(for: 17))
-	public var actionTextColor: UIColor = .red
+    public var actionFont: UIFont = AppFont.robotoMedium(ofSize: 14)
+    public var actionTextColor: UIColor = AppColorV4.Indigo.indigo400
 }

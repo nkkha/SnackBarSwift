@@ -8,6 +8,24 @@
 import UIKit
 
 struct AppColorV4 {
+    // System
+    static let amber = UIColor(named: "amber")!
+    static let black = UIColor(named: "black")!
+    static let blue = UIColor(named: "blue")!
+    static let darkGray = UIColor(named: "dark-gray")!
+    static let gray = UIColor(named: "gray")!
+    static let green = UIColor(named: "green")!
+    static let lightGray = UIColor(named: "light-gray")!
+    static let lime = UIColor(named: "lime")!
+    static let magenta = UIColor(named: "magenta")!
+    static let orange = UIColor(named: "orange")!
+    static let pink = UIColor(named: "pink")!
+    static let purple = UIColor(named: "purple")!
+    static let red = UIColor(named: "red")!
+    static let teal = UIColor(named: "teal")!
+    static let white = UIColor(named: "white")!
+    static let yellow = UIColor(named: "yellow")!
+    
     struct Background {
         static let appBar = UIColor(named: "bg-app-bar")!
         static let background = UIColor(named: "bg-background")!
@@ -59,25 +77,6 @@ struct AppColorV4 {
         static let success = UIColor(named: "text-success")!
         static let unknown = UIColor(named: "text-unknown")!
         static let warn = UIColor(named: "text-warn")!
-    }
-    
-    struct System {
-        static let amber = UIColor(named: "amber")!
-        static let black = UIColor(named: "black")!
-        static let blue = UIColor(named: "blue")!
-        static let darkGray = UIColor(named: "dark-gray")!
-        static let gray = UIColor(named: "gray")!
-        static let green = UIColor(named: "green")!
-        static let lightGray = UIColor(named: "light-gray")!
-        static let lime = UIColor(named: "lime")!
-        static let magenta = UIColor(named: "magenta")!
-        static let orange = UIColor(named: "orange")!
-        static let pink = UIColor(named: "pink")!
-        static let purple = UIColor(named: "purple")!
-        static let red = UIColor(named: "red")!
-        static let teal = UIColor(named: "teal")!
-        static let white = UIColor(named: "white")!
-        static let yellow = UIColor(named: "yellow")!
     }
     
     struct Gray {

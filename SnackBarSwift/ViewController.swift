@@ -9,13 +9,13 @@ import UIKit
 import SnapKit
 
 class ViewController: UIViewController {
-
     let button: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Show", for: .normal)
         button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
         return button
     }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
        
@@ -27,7 +27,8 @@ class ViewController: UIViewController {
     }
     
     @objc func buttonTapped(_ sender: UIButton) {
-        SnackBar.make(in: self.view, iconType: .success, message: "Two lines with one action. One to two", duration: .lengthShort).setAction(with: "Retry").show()
+        SnackBar.make(in: self.view, iconType: .success, message: "Two lines with one action. One to two lines is preferable on mobile.", duration: .lengthShort).show()
+//        SnackBar.make(in: self.view, iconType: .success, message: "Two lines with one action. One to two lines is preferable on mobile.", duration: .lengthShort).setAction(with: "BUTTON").show()
     }
 }
 

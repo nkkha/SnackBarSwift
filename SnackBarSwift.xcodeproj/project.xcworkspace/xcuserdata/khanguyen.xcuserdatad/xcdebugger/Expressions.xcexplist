@@ -12,6 +12,9 @@
                value = "actionButton.titleLabel!">
             </PersistentString>
             <PersistentString
+               value = "message.widthOfText(usingFont: style.font)">
+            </PersistentString>
+            <PersistentString
                value = "actionButton.titleLabel?.text">
             </PersistentString>
          </PersistentStrings>
